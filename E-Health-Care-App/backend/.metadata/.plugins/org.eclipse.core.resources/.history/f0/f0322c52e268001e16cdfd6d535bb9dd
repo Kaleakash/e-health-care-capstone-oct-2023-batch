@@ -1,0 +1,17 @@
+package ehealthcare.com.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@SpringBootApplication(scanBasePackages = "ehealthcare")
+@EntityScan(basePackages = "ehealthcare.com.entity")
+@EnableJpaRepositories(basePackages = "ehealathcare.com.repository")
+public class EHealthCareBackendAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EHealthCareBackendAppApplication.class, args);
+	}
+
+}

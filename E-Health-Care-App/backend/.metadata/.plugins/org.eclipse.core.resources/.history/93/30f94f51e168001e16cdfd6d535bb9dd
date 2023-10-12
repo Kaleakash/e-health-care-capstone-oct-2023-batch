@@ -1,0 +1,5 @@
+package ehealthcare.com.controller;
+
+public class LoginController {
+
+}

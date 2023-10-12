@@ -1,0 +1,5 @@
+package ehealthcare.com.repository;
+
+public interface LoginRepository {
+
+}

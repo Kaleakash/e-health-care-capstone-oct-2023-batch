@@ -1,0 +1,5 @@
+package ehealthcare.com.service;
+
+public class LoginService {
+
+}
